@@ -1,0 +1,6 @@
+
+# simpleC
+bison -y -d simpleC.y
+flex simpleC.l
+gcc y.tab.c lex.yy.c simpleCb.c -o simpleC.exe
+

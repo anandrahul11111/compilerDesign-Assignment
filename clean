@@ -1,0 +1,3 @@
+rm simpleC.exe
+rm lex.yy.c y.tab.c
+rm y.tab.h
